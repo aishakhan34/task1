@@ -1,0 +1,28 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+nav{display: flex;
+justify-content: space-around;
+padding: 30px 0px
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+ 
+
+nav ul{display: flex;
+list-style: none;
+gap: 50px;}
+
+nav ul a{text-decoration: none;
+color: white;}
+
+
+.menu a :hover{ color: green;}
+
+body{background-image: url(./media/Coffee\ Cafe\ Aesthetic\ Instagram\ Post.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 1000px;
+display: flex;
+justify-content: center;}
+ 

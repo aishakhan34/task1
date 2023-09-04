@@ -1,0 +1,16 @@
+*{margin: 0px;
+padding: 0;
+box-sizing: border-box;}
+.card{width: 40%;
+display: flex;
+gap: 10px;
+}
+.cardimg{width: 15%;}
+.cardimg img{width: 100%;}
+.cardinfo{width: 70%;}
+.cardinfo p{font-size: 25px;
+margin-top: 10px;}
+.cardsection{ display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;}

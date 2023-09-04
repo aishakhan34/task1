@@ -1,0 +1,98 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+nav{display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 30px 0px;
+background-color: black;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.logo{display: flex;
+align-items: center;
+gap: 20px;}
+
+.button{all: unset;
+background-color: rgb(177, 68, 68);
+color: white;
+text-align: center;
+font-size: 25px;
+padding: 10px 20px;
+border-radius: 10px ;
+cursor:pointer;
+}
+.btn{display: flex;
+gap: 15px;}
+.button1{all: unset;
+    background-color: rgb(77, 68, 177);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 10px ;
+    cursor:pointer;
+
+}
+.button1:hover{
+    background-color: #fff;
+    color: #000;
+}                     
+    .main{
+    height: 400px;
+font-size: 40px;
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: center;
+background: linear-gradient(45deg, #fc4a1a ,#f7b733,#2338c3);
+flex-direction: column;
+font-family: 'Times New Roman', Times, serif;}
+
+.main input{width: 50%;
+height: 30px;
+font-size: 20px;
+padding: 30px 20px;
+border: 2px solid black;}
+
+.maincard{display: flex;
+    gap: 30px;
+font-family: cursive;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+flex-wrap: wrap;
+}
+.card{width: 40%;
+display: flex;
+gap: 30px;
+}
+.cardImage{
+    width: 15%;
+}
+.cardImage img{
+    width: 100%;
+}
+.cardInfo{
+    width: 80%;
+}
+.cardInfo p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.cardInfo a{text-decoration: none;
+font-size: 20px;
+display: flex;
+gap: 5px;
+align-items: center;
+}
+.cardInfo img{width: 20px;}
+/* help badge css start  */
+.help{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 50px;}
